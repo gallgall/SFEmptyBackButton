@@ -48,7 +48,6 @@
 		E74D9E851EB8FE09000EE828 /* Aspects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Aspects.framework; path = Carthage/Build/iOS/Aspects.framework; sourceTree = "<group>"; };
 		E78776421C1DC6FF0035201D /* SFEmptyBackButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFEmptyBackButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78776451C1DC6FF0035201D /* SFEmptyBackButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFEmptyBackButton.h; sourceTree = "<group>"; };
-		E78776471C1DC6FF0035201D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E787765C1C1DD2670035201D /* SFEmptyBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFEmptyBackButton.m; sourceTree = "<group>"; };
 		E7E5C1351C3C214500FE2623 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E5C1371C3C214500FE2623 /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
@@ -129,7 +128,6 @@
 			children = (
 				E78776451C1DC6FF0035201D /* SFEmptyBackButton.h */,
 				E787765C1C1DD2670035201D /* SFEmptyBackButton.m */,
-				E78776471C1DC6FF0035201D /* Info.plist */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -219,6 +217,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = E78776381C1DC6FF0035201D;
